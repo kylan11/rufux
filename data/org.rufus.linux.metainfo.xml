@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.rufus.linux</id>
+  <name>Rufux</name>
+  <summary>Create bootable USB drives</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <description>
+    <p>
+      Rufux is a utility for creating bootable USB flash drives.
+      It can format USB drives and create bootable media from ISO images.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>Format USB drives to FAT32, NTFS, exFAT, or ext4</li>
+      <li>Create MBR or GPT partition tables</li>
+      <li>Write ISO images to USB drives</li>
+      <li>Safe defaults to prevent accidental data loss</li>
+    </ul>
+  </description>
+  <launchable type="desktop-id">org.rufus.linux.desktop</launchable>
+  <url type="homepage">https://github.com/pbatard/rufus</url>
+  <content_rating type="oars-1.1" />
+  <releases>
+    <release version="0.1.0" date="2025-12-26">
+      <description>
+        <p>Initial release of Rufux</p>
+      </description>
+    </release>
+  </releases>
+</component>

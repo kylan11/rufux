@@ -1,0 +1,61 @@
+/* Rufux - GTK4 Stylesheet */
+
+/* Main window */
+window {
+    background-color: @theme_bg_color;
+}
+
+/* Section expanders */
+.section-expander {
+    font-weight: bold;
+}
+
+.section-frame {
+    padding: 8px;
+}
+
+/* Status label states */
+.status-ready {
+    color: @success_color;
+    font-weight: bold;
+}
+
+.status-busy {
+    color: @warning_color;
+    font-weight: bold;
+}
+
+.status-error {
+    color: @error_color;
+    font-weight: bold;
+}
+
+/* Progress bar */
+progressbar {
+    min-height: 24px;
+}
+
+progressbar > trough > progress {
+    background-color: @success_color;
+}
+
+/* Buttons */
+.suggested-action {
+    font-weight: bold;
+}
+
+/* Drop downs */
+dropdown {
+    min-width: 120px;
+}
+
+/* Entry fields */
+entry {
+    min-height: 32px;
+}
+
+/* Labels in grids */
+grid > label {
+    margin-start: 4px;
+    margin-end: 8px;
+}
